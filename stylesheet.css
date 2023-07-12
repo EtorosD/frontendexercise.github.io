@@ -1,0 +1,56 @@
+body {
+    background-image: url("/images/background.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+  }
+
+  .female {
+    display: flex;
+    justify-content: center;
+  }
+
+  #myImage {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+
+  #headline {
+    position: absolute;
+    bottom: -35%;
+  }
+
+  #headline2 {
+    position: absolute;
+    bottom: -25%;
+  }
+
+  #subheadline {
+    position: absolute;
+    bottom: -55%;
+  }
+
+  #learnMoreImage {
+    position: absolute;
+    bottom: 10%;
+  }
+
+  #logoImage {
+    position: absolute;
+    bottom: 30%;
+    right: 25px;
+  }
+
+  .logo {
+    height: 100%;
+    width: 600px;
+  }
+
+  #replayImage {
+    position: absolute;
+    bottom: -15%;
+    margin-left: 30px;
+  }
+  
+  
